@@ -1,0 +1,126 @@
+.notes-pages{
+  background-color: oldlace;
+  font-size: 5vw;
+  line-height: 10vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+
+.btn{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  padding: 2% 5%;
+  margin-bottom: 10%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.left-link{
+  float: left;
+}
+
+.right-link{
+  float: right;
+}
+
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.img-description{
+  text-align: center;
+}
+
+.main-page{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 20%;
+  box-sizing: border-box;
+  background-color: ;
+  height: 60vw;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 6vw;
+}
+
+.main-page-firstdiv{
+  background-color: #FCBB6D;
+}
+
+.main-page-seconddiv{
+  background-color: #D8737F;
+}
+
+.main-page-thirddiv{
+  background-color: #AB6C82;
+}
+
+.main-page-fourthdiv{
+  background-color: #685D79;
+}
+
+.main-page-fifthdiv{
+  background-color: #475C7A;
+}
+
+.main-page-link{
+  background-color: limegreen;
+  text-decoration: none;
+  padding: 4% 8%;
+  font-size: 6vw;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.content-page-body{
+  background-color: cornsilk;
+  font-size: 5vw;
+  box-sizing: border-box;
+  line-height: 10vw;
+}
+
+nav{
+  text-align: center;
+}
+
+.content-link{
+  text-decoration: none;
+  text-align: center;
+  background-color: deepskyblue;
+  margin: 0.5% 0%;
+  padding: 5px 20px;
+  display: block;
+  color: white;
+  font-size: 5vw;
+}
