@@ -1,6 +1,6 @@
 .notes-pages{
   background-color: oldlace;
-  font-size: clamp(1em, 3vmax, 1.5em);
+  font-size: clamp(1em, 3vmax, 1em);
   line-height: clamp(1em, 10vmax, 2em);
   margin-left: 7vw;
   margin-right: 7vw;
@@ -14,6 +14,11 @@ h1{
 }
 
 h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -95,14 +100,13 @@ img{
 
 .main-page-h1{
   margin-bottom: 2vmax;
-  font-size: clamp(1em, 5vmax, 3em);
 }
 
 
 
 .content-page-body{
   background-color: oldlace;
-  font-size: clamp(1em, 3vmax, 1.5em);
+  font-size: clamp(1em, 3vmax, 1em);
   box-sizing: border-box;
   line-height: clamp(1em, 10vmax, 2em);
   margin-left: 7vw;
