@@ -1,7 +1,7 @@
 .notes-pages{
   background-color: oldlace;
-  font-size: 5vw;
-  line-height: 10vw;
+  font-size: clamp(1em, 3vmax, 1.5em);
+  line-height: clamp(1em, 10vmax, 2em);
   margin-left: 7vw;
   margin-right: 7vw;
   box-sizing: border-box;
@@ -32,8 +32,8 @@ p{
   text-align: center;
   color: white;
   display: inline-block;
-  padding: 2% 5%;
-  margin-bottom: 10%;
+  padding: 0.5vmax 2vmax;
+  margin-bottom: 3vmax;
   background-color: black;
   border-radius: 10px;
 }
@@ -62,52 +62,48 @@ img{
 .main-page{
   box-sizing: border-box;
   margin: 0;
-  padding: 0 20%;
-  box-sizing: border-box;
-  background-color: ;
-  height: 60vw;
+  padding: 0 10%;
   display: flex;
-  align-items:center;
+  flex-flow: column;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  font-size: 6vw;
+  height: 30vmax;
 }
 
 .main-page-firstdiv{
-  background-color: #FCBB6D;
+  background-color: #900C35;
+  color: ghostwhite;
+  height: 50vmax;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-page-seconddiv{
-  background-color: #D8737F;
+  background-color: #FEFEFE;
 }
 
 .main-page-thirddiv{
-  background-color: #AB6C82;
+  background-color: oldlace;
 }
 
 .main-page-fourthdiv{
-  background-color: #685D79;
+  background-color: #FEFEFE;
 }
 
 .main-page-fifthdiv{
-  background-color: #475C7A;
+  background-color: oldlace;
 }
 
-.main-page-link{
-  background-color: limegreen;
-  text-decoration: none;
-  padding: 4% 8%;
-  font-size: 6vw;
-  color: white;
-  text-align: center;
-  margin-top: 5%;
+.main-page-h1{
+  margin-bottom: 2vmax;
 }
+
+
 
 .content-page-body{
-  background-color: cornsilk;
-  font-size: 5vw;
+  background-color: oldlace;
+  font-size: clamp(1em, 3vmax, 1.5em);
   box-sizing: border-box;
-  line-height: 10vw;
+  line-height: clamp(1em, 10vmax, 2em);
 }
 
 nav{
@@ -117,10 +113,9 @@ nav{
 .content-link{
   text-decoration: none;
   text-align: center;
-  background-color: deepskyblue;
-  margin: 0.5% 0%;
+  background-color: black;
+  margin: 1vmax 5vmax;
   padding: 5px 20px;
   display: block;
   color: white;
-  font-size: 5vw;
 }
