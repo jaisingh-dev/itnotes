@@ -105,6 +105,8 @@ img{
   font-size: clamp(1em, 3vmax, 1.5em);
   box-sizing: border-box;
   line-height: clamp(1em, 10vmax, 2em);
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 nav{
@@ -115,7 +117,7 @@ nav{
   text-decoration: none;
   text-align: center;
   background-color: black;
-  margin: 1vmax 5vmax;
+  margin-bottom: 1px;
   padding: 5px 20px;
   display: block;
   color: white;
