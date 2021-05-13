@@ -1,7 +1,7 @@
 .notes-pages{
   background-color: oldlace;
-  font-size: clamp(1em, 3vmax, 1.2em);
-  line-height: clamp(1em, 10vmax, 2em);
+  font-size: 1em;
+  line-height: clamp(1em, 10vmax, 1.8em);
   margin-left: 7vw;
   margin-right: 7vw;
   box-sizing: border-box;
@@ -106,9 +106,9 @@ img{
 
 .content-page-body{
   background-color: oldlace;
-  font-size: clamp(1em, 3vmax, 1.2em);
+  font-size: 1em;
   box-sizing: border-box;
-  line-height: clamp(1em, 10vmax, 2em);
+  line-height: clamp(1em, 10vmax, 1.8em);
   margin-left: 7vw;
   margin-right: 7vw;
 }
